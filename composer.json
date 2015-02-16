@@ -1,0 +1,17 @@
+{
+    "require": {
+        "slim/slim": "2.*",
+        "illuminate/database": "*",
+        "twig/twig": "1.*",
+        "twig/extensions": "1.*",
+        "nesbot/carbon": "1.*",
+        "symfony/console":"2.*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Library\\": "library/",
+            "App\\": "app/"
+        }
+    }
+}
